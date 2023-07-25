@@ -147,6 +147,7 @@ df.head()
 
 
 get_ipython().system('pip install pandas dash')
+get_ipython().system('pip install gunicorn')
 import dash
 import dash_html_components as html
 import dash_core_components as dcc

@@ -11,7 +11,7 @@ import pandas as pd
 
 
 df = pd.read_csv(r"C:\Users\naipe\Downloads\8. Netflix Dataset.csv")
-
+df.to_csv("Netflix_Dataset.csv", index=False)
 
 # In[3]:
 

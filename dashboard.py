@@ -10,8 +10,8 @@ import pandas as pd
 # In[2]:
 
 
-df = pd.read_csv(r"C:\Users\naipe\Downloads\8. Netflix Dataset.csv")
-df.to_csv("Netflix_Dataset.csv", index=False)
+csv_file_path = "data/8. Netflix Dataset.csv"
+df = pd.read_csv(csv_file_path)
 
 # In[3]:
 

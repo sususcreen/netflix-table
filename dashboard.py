@@ -72,8 +72,10 @@ df['Date']= pd.to_datetime(df['Release_Date'])
 
 
 df['Date'].dt.year.value_counts()
-
-
+df['Year'] = df['Date'].dt.year
+df['Year'] = pd.to_numeric(df['Year'], errors='coerce')
+df['Year'].fillna(0, inplace=True)
+df['Year'] = df['Year'].astype(int)
 # In[19]:
 
 

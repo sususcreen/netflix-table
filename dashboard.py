@@ -159,7 +159,7 @@ df.head()
 # In[159]:
 
 
--m pip install pandas dash
+!python -m pip install pandas dash
 import dash
 import dash_html_components as html
 import dash_core_components as dcc

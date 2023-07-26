@@ -85,9 +85,6 @@ import seaborn as sns
 # In[252]:
 
 
-import matplotlib.pyplot as plt
-
-
 # In[258]:
 
 
@@ -182,9 +179,9 @@ from IPython.display import IFrame
 from PIL import Image
 
 try:
-    image1 = Image.open(r"C:\Users\naipe\Downloads\download (3).png")
-    image2 = Image.open(r"C:\Users\naipe\Downloads\download (4).png")
-    image3 = Image.open(r"C:\Users\naipe\Downloads\download (5).png")
+    image1 = Image.open("data/download (3).png")
+    image2 = Image.open("data/download (4).png")
+    image3 = Image.open("data/download (5).png")
     print("Images loaded successfully.")
 except Exception as e:
     print(f"Error loading images: {e}")
